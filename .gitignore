@@ -1,2 +1,2 @@
-#sånn at passord og bruker til db ikke kommer til github
+#ignorerer environmentfil med sensitiv info
 .env
