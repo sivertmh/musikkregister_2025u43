@@ -8,6 +8,8 @@
 
 - Satt bind-adresse til 10.2.35.19, Pi-ens IP (DHCP), slik at bare IPer på LANet får logge inn
 
+- Github: [https://github.com/sivertmh/musikkregister_2025u43](https://github.com/sivertmh/musikkregister_2025u43)
+
 ``pip install mysql-connector-python python-dotenv``
 
 ## Databasebruker
