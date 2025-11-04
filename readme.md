@@ -20,6 +20,10 @@ GRANT ALL PRIVILEGES ON *.* TO 'sett_inn_navn'@'10.3.124.125';
 FLUSH PRIVILEGES;
 ```
 
+eller, hvis IP-adresse har endret seg p.g.a. DHCP:
+
+``RENAME USER 'gammeltnavn'@'ip1' TO 'nyttnavn'@'ip2'``
+
 - Erfaring: *.local funker ikke
 
 ## Struktur Av Database

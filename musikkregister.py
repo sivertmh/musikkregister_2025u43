@@ -120,7 +120,7 @@ match menu:
   
   #slett valgt innhold fra database, én sang eller artist
   case "e":
-    table = input("Hvilken tabell vil du oppdatere i?: ")
+    table = input("Hvilken tabell vil du slette i?: ")
     victim = input("Hva vil du slette?: ")
     sql = f"DELETE FROM {table} WHERE navn = %s"
     mycursor.execute(sql, victim)
